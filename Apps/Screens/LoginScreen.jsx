@@ -27,15 +27,22 @@ export default function LoginScreen() {
     <View>
       <Image
         source={require("./../../assets/images/rocket.jpg")}
-        style={{ width: "100%", height: 400, objectFit: "cover" }}
+        style={{ width: "100%", height: 250, objectFit: "fill" }}
       />
-      <View style={{ padding: 20 }}>
-        <Text style={{ fontSize: 45, fontWeight: "bold" }}>
+      <View style={{ padding: 55 }}>
+        <Text style={{ fontSize: 45, fontWeight: "bold", textAlign: "center" }}>
           Welcome To
-          <Text style={{ color: Colors.PRIMARY }}> CodeBox</Text>
+          <Text style={{ color: Colors.PRIMARY }}> CodeNexus</Text>
         </Text>
-        <Text style={{ fontSize: 20, marginTop: 7, color: Colors.GRAY }}>
-          Learn Programming to Build Real Life Projects
+        <Text
+          style={{
+            fontSize: 20,
+            marginTop: 7,
+            color: Colors.black,
+            textAlign: "center",
+          }}
+        >
+          Your Gateway to Coding Excellence
         </Text>
 
         {/* Sign In button  */}
