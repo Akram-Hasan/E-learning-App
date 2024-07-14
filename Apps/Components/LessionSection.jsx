@@ -15,7 +15,7 @@ selectedChapter={},disable=false}) {
     } 
   return (
     <View>
-        <SectionHeading heading={'Lessions'} />
+        <SectionHeading heading={'Lessons'} />
       <FlatList
         data={course?.chapter}
         showsVerticalScrollIndicator={false}
